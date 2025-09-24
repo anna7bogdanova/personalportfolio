@@ -1,0 +1,213 @@
+/* element selector */
+/* CSS HEX 
+--space-cadet: #1b264fff;
+--marian-blue: #274690ff;
+--true-blue: #576ca8ff;
+--jet: #302b27ff;
+--white-smoke: #f5f3f5ff - changed to: #f5edec;
+*/
+
+/* Overall text */
+body {
+    background-color: #f5edec;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.dot {
+    color:#D36060;
+}
+
+/* Navbar */
+#navbar {
+    background-color: #576ca8ff;
+    text-decoration: none;
+    text-align:center;
+    color:white;
+    opacity: 0.7;
+    border-radius: 20px;
+    position:sticky;
+    top:0;
+}
+#navbar li {
+    display:inline-block;
+    text-align:center;
+}
+
+#navbar a {
+color:white;
+padding:60px;
+text-decoration: none;
+}
+
+#navbar a:hover{
+    color:#D36060;
+}
+
+#container {
+    display: flex;
+    align-items: flex-start; /* aligns items at the top */
+    justify-content:space-evenly;
+    align-items: top;
+}
+
+#left {
+    width:65%;
+    display: inline-block;
+}
+
+#right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:33%;
+}
+
+#right .headshot {
+    border-radius: 600px;
+    padding:10px;
+    margin: 10px;
+    max-width: 100%;
+}
+
+#right #contact {
+    padding:10px;
+    margin: 10px;
+    border: 1.5px dashed #D36060;
+    border-radius: 10px;
+    padding: 10px;
+    width: 25em;
+    text-align: center;
+}
+
+#right #lang {
+    padding:10px;
+    margin: 10px;
+    border: 1.5px dashed #D36060;
+    border-radius: 10px;
+    padding: 10px;
+    width: 25em;
+    text-align: center;
+}
+
+#right #hobbies {
+    padding:10px;
+    margin: 10px;
+    border: 1.5px dashed #D36060;
+    border-radius: 10px;
+    padding: 10px;
+    width: 25em;
+    text-align: center;
+}
+
+
+/* Contact button */
+#contactform {
+    font-size:16px;
+    color:whitesmoke;
+    background-color: #1b264fff;
+    opacity: 0.85;
+    display:inline-block;
+    position:fixed;
+    bottom: 20px;
+    right:5px;
+    padding:10px;
+    border-radius: 30px;
+    width:260px;
+    text-align: center;
+}
+
+#contactform a {
+  color: whitesmoke;        
+  text-decoration: underline;
+}
+
+#contactform a:hover{
+    color:#D36060;
+}
+
+/* Headings */
+h1 {
+color: #274690ff; 
+font-size: 60px; 
+font-weight: 900;
+padding-top:30px;
+margin: 30px;
+text-align: center;
+}
+
+
+h2 {
+color: #1b264fff; 
+font-size: 30px; 
+font-weight: 750;
+}
+
+h3 {
+font-size: 20px; 
+color: #274690ff; 
+padding:10px;
+margin: 10px;
+}
+
+
+
+/* Text within lists and tables */
+
+p, li, table {
+color:#302b27ff; 
+font-size: 18px; 
+font-weight: 400;
+list-style:square;
+}
+
+li::marker{
+    color:#D36060;
+}
+
+/* Table */
+
+th, tr, td {
+border: 0.9px solid #D36060;
+padding: 10px;
+text-align: center;  
+}
+
+
+th {
+color:#274690ff; 
+}
+
+/* Links */
+
+a {
+color:#576ca8ff;
+}
+
+a:hover{
+    color:#D36060;
+} */
+
+
+/* Projects */
+#projects div {   
+     text-align: center;
+     
+}
+
+#projects .project {
+background-color:#274690ff;
+width:27%;
+height:200px;
+display:inline-block;
+font-size:24px;
+color:#f5edec;
+padding:20px;
+margin:20px;
+border-radius: 20px;
+opacity: 0.7;
+}
+
+#projects .project:hover {
+color:#D36060;
+cursor:pointer;
+} 

@@ -1,0 +1,116 @@
+/* element selector */
+/* CSS HEX 
+--space-cadet: #1b264fff;
+--marian-blue: #274690ff;
+--true-blue: #576ca8ff;
+--jet: #302b27ff;
+--white-smoke: #f5f3f5ff - changed to: #f5edec;
+*/
+
+body {
+background-color: #f5edec;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+img {
+position:sticky;
+width:200px;
+bottom:5px;
+left:1280px;
+}
+
+#form {
+    width: 350px;
+  margin: 20px auto;       /* center horizontally */
+  padding: 20px;
+  background: #f4f4f4;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#form button {
+  width: 80px;
+  padding: 5px;
+  background: #274690ff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#form button:hover {
+  background: #D36060;
+}
+
+#form input,
+#form textarea {
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; /* makes width include padding */
+  font-size: 14px;
+}
+
+h1 {
+color: #274690ff; 
+font-size: 60px; 
+font-weight: 900;
+border-radius: 10px;
+padding:10px;
+margin: 10px;
+position:relative;
+right:0px;
+top:10px;
+}
+
+
+h2 {
+color: #1b264fff; 
+font-size: 30px; 
+font-weight: 750;
+}
+
+h3 {
+font-size: 20px; 
+color: #274690ff; 
+padding:10px;
+margin: 10px;
+}
+
+form {
+color:#302b27ff; 
+font-size: 14px; 
+font-weight: 400;
+list-style:square;
+}
+
+a {
+color:#f5edec;
+position:sticky;
+width:200px;
+bottom:95px;
+left:1290px;
+font-style: normal;
+text-decoration: none; 
+}
+
+a:hover{
+    color:#D36060;
+}
+
+
+/* ID selector 
+#unique-link {
+color:red;
+}
+
+Class selector 
+.[name of class] {
+[what u want to happen]
+}
+*/

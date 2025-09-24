@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>PM Request Form</title>
+    <link rel="stylesheet" href="/Projects/PMform.css">
+
+</head>
+<body>
+    <h1>Project Management Request Form</h1>
+<p>This is the place where wild ideas become actual projects (and sometimes mild chaos becomes controlled chaos). Please tell me what you’re working on, when you’d like it done, and anything else that might save us from last-minute surprises. The more detail you share, the less likely I am to chase you down with a Gantt chart or passive-aggressive calendar invite. </p>
+<hr>
+    <form id="form">
+        <h3>Who are you?</h3>
+        Full name: <input type=text placeholder="Tom Cruise" required><br><br>
+        Email: <input type="email" placeholder="me@bestprojectever.com" required><br><br>
+        Phone (+1): <input type="number"><br><br>
+        Role:
+        <select>
+            <option>CEO</option>
+            <option>Product Owner</option>
+            <option>Engineer</option>
+            <option>Data Scientist</option>
+            <option>Other</option>
+        </select> <br><br>
+        Support status: <input type="text" placeholder="Scoping" disabled>
+        <h3>Project Basics</h3>
+        Project Name: <input type="text" placeholder="Mission: Avoid Scope Creep" required><br><br>
+        Start date: <input type="date"><br><br>
+        Budget: <input type="number" placeholder="1000000" required><br><br>
+        Support Needed: 
+        <input type="checkbox" name="colours"> Planning & Scheduling
+        <input type="checkbox" name="colours"> Team Coordination
+        <input type="checkbox" name="colours"> Risk & Issues
+        <input type="checkbox" name="colours"> Reporting & Updates <br><br>
+        
+        Scope: <textarea placeholder="Describe the mission (bonus points if it makes sense)." rows="3" cols="35" required></textarea><br><br>
+        Attachments: <input type="file"> <br><br>
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+    </form>
+
+    <img src="/Icons/flower.png">
+    <a href="/Projects/PersonalPortfolio.html">Back to site</a>
+</body>
+</html>
